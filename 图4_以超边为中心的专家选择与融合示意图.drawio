@@ -1,0 +1,594 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="fig4" name="图4 以超边为中心的专家选择与融合示意图">
+    <mxGraphModel dx="2492" dy="1345" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1310" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f4_1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#E7E7E7;strokeColor=#666666;strokeWidth=1.6;fontFamily=SimSun;fontSize=25;fontStyle=1;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="图4  以超边为中心的专家选择与融合示意图" vertex="1">
+          <mxGeometry height="48" width="1640" x="30" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_2" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;dashed=1;dashPattern=6 4;" value="" vertex="1">
+          <mxGeometry height="415" width="440" x="35" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_3" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=20;fontStyle=1;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="（a）超边特征与路由评分" vertex="1">
+          <mxGeometry height="32" width="416" x="47" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_4" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;endArrow=none;endFill=1;strokeColor=#004C99;strokeWidth=2.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="152" y="230" />
+              <mxPoint x="156.1" y="171.2" />
+            </Array>
+            <mxPoint x="90.5" y="181" as="sourcePoint" />
+            <mxPoint x="90.5" y="269.2" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_5" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;endArrow=none;endFill=1;strokeColor=#E8A9D0;strokeWidth=2.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="152" y="230" />
+              <mxPoint x="234" y="188" />
+            </Array>
+            <mxPoint x="156.1" y="171.2" as="sourcePoint" />
+            <mxPoint x="254.5" y="260.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_6" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;endArrow=none;endFill=1;strokeColor=#D4AC24;strokeWidth=2.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="152" y="230" />
+              <mxPoint x="172.5" y="283.2" />
+            </Array>
+            <mxPoint x="90.5" y="181" as="sourcePoint" />
+            <mxPoint x="254.5" y="260.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_7" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#DAF2D1;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="1" vertex="1">
+          <mxGeometry height="20" width="20" x="80.5" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_8" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#DAF2D1;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="2" vertex="1">
+          <mxGeometry height="20" width="20" x="146.1" y="161.2" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_9" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF3CC;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="3" vertex="1">
+          <mxGeometry height="20" width="20" x="224" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_10" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF3CC;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="4" vertex="1">
+          <mxGeometry height="20" width="20" x="244.5" y="250.8" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_11" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FED9D9;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="5" vertex="1">
+          <mxGeometry height="20" width="20" x="162.5" y="273.2" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_12" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FED9D9;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="6" vertex="1">
+          <mxGeometry height="20" width="20" x="80.5" y="259.2" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_13" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#DAF2D1;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="22" width="22" x="318" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_14" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="22" width="22" x="340" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_15" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#DAF2D1;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="22" width="22" x="362" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_16" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="22" width="22" x="384" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_17" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF3CC;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="22" width="22" x="318" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_18" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="22" width="22" x="340" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_19" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF3CC;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="22" width="22" x="362" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_20" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="22" width="22" x="384" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_21" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="22" width="22" x="318" y="217" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_22" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FED9D9;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="22" width="22" x="340" y="217" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_23" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="22" width="22" x="362" y="217" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_24" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FED9D9;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="22" width="22" x="384" y="217" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_25" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="22" width="22" x="318" y="239" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_26" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#DAF2D1;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="22" width="22" x="340" y="239" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_27" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="22" width="22" x="362" y="239" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_28" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#DAF2D1;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="22" width="22" x="384" y="239" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_29" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF3CC;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="22" width="22" x="318" y="261" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_30" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="22" width="22" x="340" y="261" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_31" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF3CC;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="22" width="22" x="362" y="261" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_32" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="" vertex="1">
+          <mxGeometry height="22" width="22" x="384" y="261" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_33" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="最终多流节点 + 稀疏关联矩阵" vertex="1">
+          <mxGeometry height="25" width="330" x="85" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_34" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#E7E7E7;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="按相连节点求均值 → 超边特征 eₘ" vertex="1">
+          <mxGeometry height="55" width="370" x="70" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_35" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#E7E7E7;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=17;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="路由得分：Softmax(线性项 + 噪声项)" vertex="1">
+          <mxGeometry height="55" width="370" x="70" y="439" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_36" edge="1" parent="1" source="f4_34" style="edgeStyle=none;rounded=0;html=0;endArrow=classic;endFill=1;strokeColor=#222222;strokeWidth=1.8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="f4_35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="410" as="sourcePoint" />
+            <mxPoint x="255" y="439" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_37" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="训练：加入高斯路由噪声&#xa;验证 / 推理：关闭噪声" vertex="1">
+          <mxGeometry height="55" width="366" x="72" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_38" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;dashed=1;dashPattern=6 4;" value="" vertex="1">
+          <mxGeometry height="415" width="1160" x="505" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_39" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=20;fontStyle=1;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="（b）专家选择超边并构建诱导子图" vertex="1">
+          <mxGeometry height="32" width="1136" x="517" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_40" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=20;fontStyle=1;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="选择方向：每个专家沿超边维选Top-K；不是每条超边固定选K个专家" vertex="1">
+          <mxGeometry height="30" width="1095" x="535" y="143" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_41" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=21;fontStyle=1;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="专家1" vertex="1">
+          <mxGeometry height="27" width="270" x="540" y="189" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_42" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F2F2;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=16;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="e1" vertex="1">
+          <mxGeometry height="34" width="39" x="540" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_43" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#B94B54;align=center;verticalAlign=middle;spacing=4;" value="×" vertex="1">
+          <mxGeometry height="23" width="39" x="540" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_44" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF3CC;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=16;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="e2" vertex="1">
+          <mxGeometry height="34" width="39" x="588" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_45" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#327943;align=center;verticalAlign=middle;spacing=4;" value="✓" vertex="1">
+          <mxGeometry height="23" width="39" x="588" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_46" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FED9D9;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=16;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="e3" vertex="1">
+          <mxGeometry height="34" width="39" x="636" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_47" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#327943;align=center;verticalAlign=middle;spacing=4;" value="✓" vertex="1">
+          <mxGeometry height="23" width="39" x="636" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_48" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F2F2;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=16;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="e4" vertex="1">
+          <mxGeometry height="34" width="39" x="684" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_49" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#B94B54;align=center;verticalAlign=middle;spacing=4;" value="×" vertex="1">
+          <mxGeometry height="23" width="39" x="684" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_50" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF3CC;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=16;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="e5" vertex="1">
+          <mxGeometry height="34" width="39" x="732" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_51" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#327943;align=center;verticalAlign=middle;spacing=4;" value="✓" vertex="1">
+          <mxGeometry height="23" width="39" x="732" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_52" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;endArrow=none;endFill=1;strokeColor=#004C99;strokeWidth=2.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="651" y="384" />
+              <mxPoint x="654.8" y="330.24" />
+            </Array>
+            <mxPoint x="594" y="339.2" as="sourcePoint" />
+            <mxPoint x="594" y="419.84000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_53" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;endArrow=none;endFill=1;strokeColor=#E8A9D0;strokeWidth=2.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="651" y="384" />
+              <mxPoint x="727" y="345.6" />
+            </Array>
+            <mxPoint x="654.8" y="330.24" as="sourcePoint" />
+            <mxPoint x="746" y="412.15999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_54" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;endArrow=none;endFill=1;strokeColor=#D4AC24;strokeWidth=2.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="651" y="384" />
+              <mxPoint x="670" y="432.64" />
+            </Array>
+            <mxPoint x="594" y="339.2" as="sourcePoint" />
+            <mxPoint x="746" y="412.15999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_55" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#DAF2D1;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="1" vertex="1">
+          <mxGeometry height="20" width="20" x="584" y="329.2" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_56" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#DAF2D1;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="2" vertex="1">
+          <mxGeometry height="20" width="20" x="644.8" y="320.24" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_57" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF3CC;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="3" vertex="1">
+          <mxGeometry height="20" width="20" x="717" y="335.6" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_58" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF3CC;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="4" vertex="1">
+          <mxGeometry height="20" width="20" x="736" y="402.15999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_59" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FED9D9;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="5" vertex="1">
+          <mxGeometry height="20" width="20" x="660" y="422.64" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_60" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FED9D9;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="6" vertex="1">
+          <mxGeometry height="20" width="20" x="584" y="409.84000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_61" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=23;fontStyle=0;fontColor=#407A4F;align=center;verticalAlign=middle;spacing=4;" value="✓  ×" vertex="1">
+          <mxGeometry height="30" width="60" x="641.5" y="371.2" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_62" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="所选超边诱导子图 G1" vertex="1">
+          <mxGeometry height="26" width="235" x="560" y="467" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_63" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#E7E7E7;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="专家超图卷积&#xa;+ 原节点残差 + LayerNorm" vertex="1">
+          <mxGeometry height="70" width="285" x="540" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_64" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=21;fontStyle=1;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="专家2" vertex="1">
+          <mxGeometry height="27" width="270" x="930" y="189" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_65" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#DAF2D1;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=16;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="e1" vertex="1">
+          <mxGeometry height="34" width="39" x="930" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_66" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#327943;align=center;verticalAlign=middle;spacing=4;" value="✓" vertex="1">
+          <mxGeometry height="23" width="39" x="930" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_67" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF3CC;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=16;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="e2" vertex="1">
+          <mxGeometry height="34" width="39" x="978" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_68" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#327943;align=center;verticalAlign=middle;spacing=4;" value="✓" vertex="1">
+          <mxGeometry height="23" width="39" x="978" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_69" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F2F2;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=16;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="e3" vertex="1">
+          <mxGeometry height="34" width="39" x="1026" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_70" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#B94B54;align=center;verticalAlign=middle;spacing=4;" value="×" vertex="1">
+          <mxGeometry height="23" width="39" x="1026" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_71" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#DAF2D1;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=16;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="e4" vertex="1">
+          <mxGeometry height="34" width="39" x="1074" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_72" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#327943;align=center;verticalAlign=middle;spacing=4;" value="✓" vertex="1">
+          <mxGeometry height="23" width="39" x="1074" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_73" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F2F2;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=16;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="e5" vertex="1">
+          <mxGeometry height="34" width="39" x="1122" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_74" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#B94B54;align=center;verticalAlign=middle;spacing=4;" value="×" vertex="1">
+          <mxGeometry height="23" width="39" x="1122" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_75" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;endArrow=none;endFill=1;strokeColor=#004C99;strokeWidth=2.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1041" y="384" />
+              <mxPoint x="1044.8" y="330.24" />
+            </Array>
+            <mxPoint x="984" y="339.2" as="sourcePoint" />
+            <mxPoint x="984" y="419.84000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_76" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;endArrow=none;endFill=1;strokeColor=#E8A9D0;strokeWidth=2.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1041" y="384" />
+              <mxPoint x="1117" y="345.6" />
+            </Array>
+            <mxPoint x="1044.8" y="330.24" as="sourcePoint" />
+            <mxPoint x="1136" y="412.15999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_77" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;endArrow=none;endFill=1;strokeColor=#D4AC24;strokeWidth=2.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1041" y="384" />
+              <mxPoint x="1060" y="432.64" />
+            </Array>
+            <mxPoint x="984" y="339.2" as="sourcePoint" />
+            <mxPoint x="1136" y="412.15999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_78" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#DAF2D1;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="1" vertex="1">
+          <mxGeometry height="20" width="20" x="974" y="329.2" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_79" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#DAF2D1;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="2" vertex="1">
+          <mxGeometry height="20" width="20" x="1034.8" y="320.24" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_80" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF3CC;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="3" vertex="1">
+          <mxGeometry height="20" width="20" x="1107" y="335.6" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_81" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF3CC;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="4" vertex="1">
+          <mxGeometry height="20" width="20" x="1126" y="402.15999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_82" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FED9D9;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="5" vertex="1">
+          <mxGeometry height="20" width="20" x="1050" y="422.64" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_83" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FED9D9;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="6" vertex="1">
+          <mxGeometry height="20" width="20" x="974" y="409.84000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_84" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=23;fontStyle=0;fontColor=#407A4F;align=center;verticalAlign=middle;spacing=4;" value="✓  ×" vertex="1">
+          <mxGeometry height="30" width="60" x="1031.5" y="371.2" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_85" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="所选超边诱导子图 G2" vertex="1">
+          <mxGeometry height="26" width="235" x="950" y="467" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_86" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#E7E7E7;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="专家超图卷积&#xa;+ 原节点残差 + LayerNorm" vertex="1">
+          <mxGeometry height="70" width="285" x="930" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_87" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=21;fontStyle=1;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="专家Z" vertex="1">
+          <mxGeometry height="27" width="270" x="1320" y="189" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_88" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#DAF2D1;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=16;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="e1" vertex="1">
+          <mxGeometry height="34" width="39" x="1320" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_89" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#327943;align=center;verticalAlign=middle;spacing=4;" value="✓" vertex="1">
+          <mxGeometry height="23" width="39" x="1320" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_90" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F2F2;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=16;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="e2" vertex="1">
+          <mxGeometry height="34" width="39" x="1368" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_91" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#B94B54;align=center;verticalAlign=middle;spacing=4;" value="×" vertex="1">
+          <mxGeometry height="23" width="39" x="1368" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_92" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FED9D9;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=16;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="e3" vertex="1">
+          <mxGeometry height="34" width="39" x="1416" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_93" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#327943;align=center;verticalAlign=middle;spacing=4;" value="✓" vertex="1">
+          <mxGeometry height="23" width="39" x="1416" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_94" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#DAF2D1;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=16;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="e4" vertex="1">
+          <mxGeometry height="34" width="39" x="1464" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_95" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#327943;align=center;verticalAlign=middle;spacing=4;" value="✓" vertex="1">
+          <mxGeometry height="23" width="39" x="1464" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_96" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F2F2F2;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=16;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="e5" vertex="1">
+          <mxGeometry height="34" width="39" x="1512" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_97" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#B94B54;align=center;verticalAlign=middle;spacing=4;" value="×" vertex="1">
+          <mxGeometry height="23" width="39" x="1512" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_98" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;endArrow=none;endFill=1;strokeColor=#004C99;strokeWidth=2.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1431" y="384" />
+              <mxPoint x="1434.8" y="330.24" />
+            </Array>
+            <mxPoint x="1374" y="339.2" as="sourcePoint" />
+            <mxPoint x="1374" y="419.84000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_99" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;endArrow=none;endFill=1;strokeColor=#E8A9D0;strokeWidth=2.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1431" y="384" />
+              <mxPoint x="1507" y="345.6" />
+            </Array>
+            <mxPoint x="1434.8" y="330.24" as="sourcePoint" />
+            <mxPoint x="1526" y="412.15999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_100" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;endArrow=none;endFill=1;strokeColor=#D4AC24;strokeWidth=2.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1431" y="384" />
+              <mxPoint x="1450" y="432.64" />
+            </Array>
+            <mxPoint x="1374" y="339.2" as="sourcePoint" />
+            <mxPoint x="1526" y="412.15999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_101" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#DAF2D1;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="1" vertex="1">
+          <mxGeometry height="20" width="20" x="1364" y="329.2" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_102" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#DAF2D1;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="2" vertex="1">
+          <mxGeometry height="20" width="20" x="1424.8" y="320.24" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_103" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF3CC;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="3" vertex="1">
+          <mxGeometry height="20" width="20" x="1497" y="335.6" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_104" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF3CC;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="4" vertex="1">
+          <mxGeometry height="20" width="20" x="1516" y="402.15999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_105" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FED9D9;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="5" vertex="1">
+          <mxGeometry height="20" width="20" x="1440" y="422.64" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_106" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FED9D9;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="6" vertex="1">
+          <mxGeometry height="20" width="20" x="1364" y="409.84000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_107" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=23;fontStyle=0;fontColor=#407A4F;align=center;verticalAlign=middle;spacing=4;" value="✓  ×" vertex="1">
+          <mxGeometry height="30" width="60" x="1421.5" y="371.2" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_108" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="所选超边诱导子图 GZ" vertex="1">
+          <mxGeometry height="26" width="235" x="1340" y="467" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_109" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#E7E7E7;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="专家超图卷积&#xa;+ 原节点残差 + LayerNorm" vertex="1">
+          <mxGeometry height="70" width="285" x="1320" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_110" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;endArrow=classic;endFill=1;strokeColor=#222222;strokeWidth=1.8;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="488" y="466" />
+              <mxPoint x="488" y="219" />
+              <mxPoint x="675" y="219" />
+            </Array>
+            <mxPoint x="440" y="466" as="sourcePoint" />
+            <mxPoint x="675" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_111" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;endArrow=classic;endFill=1;strokeColor=#222222;strokeWidth=1.8;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1065" y="219" />
+            </Array>
+            <mxPoint x="488" y="219" as="sourcePoint" />
+            <mxPoint x="1065" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_112" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;endArrow=classic;endFill=1;strokeColor=#222222;strokeWidth=1.8;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1455" y="219" />
+            </Array>
+            <mxPoint x="1065" y="219" as="sourcePoint" />
+            <mxPoint x="1455" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_113" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;dashed=1;dashPattern=6 4;" value="" vertex="1">
+          <mxGeometry height="280" width="1160" x="505" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_114" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=20;fontStyle=1;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="（c）专家内部计算与超边级预测" vertex="1">
+          <mxGeometry height="32" width="1136" x="517" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_115" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;endArrow=classic;endFill=1;strokeColor=#222222;strokeWidth=1.8;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="493" as="sourcePoint" />
+            <mxPoint x="680" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_116" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#E7E7E7;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="所选超边内聚合&#xa;线性映射 → ŷₘ,ᶻ" vertex="1">
+          <mxGeometry height="65" width="285" x="540" y="747" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_117" edge="1" parent="1" source="f4_63" style="edgeStyle=none;rounded=0;html=0;endArrow=classic;endFill=1;strokeColor=#222222;strokeWidth=1.8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="f4_116">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="682.5" y="720" as="sourcePoint" />
+            <mxPoint x="682.5" y="747" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_118" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;endArrow=classic;endFill=1;strokeColor=#222222;strokeWidth=1.8;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="493" as="sourcePoint" />
+            <mxPoint x="1070" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_119" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#E7E7E7;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="所选超边内聚合&#xa;线性映射 → ŷₘ,ᶻ" vertex="1">
+          <mxGeometry height="65" width="285" x="930" y="747" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_120" edge="1" parent="1" source="f4_86" style="edgeStyle=none;rounded=0;html=0;endArrow=classic;endFill=1;strokeColor=#222222;strokeWidth=1.8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="f4_119">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1072.5" y="720" as="sourcePoint" />
+            <mxPoint x="1072.5" y="747" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_121" edge="1" parent="1" style="edgeStyle=none;rounded=0;html=0;endArrow=classic;endFill=1;strokeColor=#222222;strokeWidth=1.8;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1460" y="493" as="sourcePoint" />
+            <mxPoint x="1460" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_122" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#E7E7E7;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="所选超边内聚合&#xa;线性映射 → ŷₘ,ᶻ" vertex="1">
+          <mxGeometry height="65" width="285" x="1320" y="747" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_123" edge="1" parent="1" source="f4_109" style="edgeStyle=none;rounded=0;html=0;endArrow=classic;endFill=1;strokeColor=#222222;strokeWidth=1.8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="f4_122">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1462.5" y="720" as="sourcePoint" />
+            <mxPoint x="1462.5" y="747" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_124" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;dashed=1;dashPattern=6 4;" value="" vertex="1">
+          <mxGeometry height="240" width="440" x="35" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_125" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=20;fontStyle=1;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="门控与索引说明" vertex="1">
+          <mxGeometry height="32" width="416" x="47" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_126" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=17;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="容量 K = min(M, max(⌊M·c/Z⌋, 1))&#xa;未选路由项置零&#xa;&#xa;① 稀疏专家门控：选择与组合专家&#xa;② 超边重要性：汇聚不同超边预测&#xa;③ 输出sigmoid门控：调制融合结果" vertex="1">
+          <mxGeometry height="177" width="384" x="63" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_127" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;dashed=1;dashPattern=6 4;" value="" vertex="1">
+          <mxGeometry height="330" width="1630" x="35" y="915" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_128" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=20;fontStyle=1;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="（d）超边预测融合与模式感知输出" vertex="1">
+          <mxGeometry height="32" width="1606" x="47" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_129" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#E7E7E7;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=21;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="稀疏专家门控合成&#xa;ŷₘ = Σᶻ g̃ₘ,ᶻ · ŷₘ,ᶻ" vertex="1">
+          <mxGeometry height="70" width="390" x="65" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_130" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#E7E7E7;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=21;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="超边重要性加权&#xa;o = Σₘ αₘ · ŷₘ" vertex="1">
+          <mxGeometry height="70" width="375" x="505" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_131" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#E7E7E7;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=20;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="sigmoid输出门控&#xa;oPAF = σ(Wgate · o) ⊙ o" vertex="1">
+          <mxGeometry height="70" width="375" x="935" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_132" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#E7E7E7;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=21;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="模式感知融合预测&#xa;oPAF" vertex="1">
+          <mxGeometry height="70" width="250" x="1370" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_133" edge="1" parent="1" source="f4_116" style="edgeStyle=none;rounded=0;html=0;endArrow=classic;endFill=1;strokeColor=#222222;strokeWidth=1.8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="f4_129">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="682.5" y="890" />
+              <mxPoint x="260" y="890" />
+            </Array>
+            <mxPoint x="682.5" y="812" as="sourcePoint" />
+            <mxPoint x="260" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_134" edge="1" parent="1" source="f4_119" style="edgeStyle=none;rounded=0;html=0;endArrow=classic;endFill=1;strokeColor=#222222;strokeWidth=1.8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="f4_129">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1072.5" y="890" />
+              <mxPoint x="260" y="890" />
+            </Array>
+            <mxPoint x="1072.5" y="812" as="sourcePoint" />
+            <mxPoint x="260" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_135" edge="1" parent="1" source="f4_122" style="edgeStyle=none;rounded=0;html=0;endArrow=classic;endFill=1;strokeColor=#222222;strokeWidth=1.8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="f4_129">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1462.5" y="890" />
+              <mxPoint x="260" y="890" />
+            </Array>
+            <mxPoint x="1462.5" y="812" as="sourcePoint" />
+            <mxPoint x="260" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_136" edge="1" parent="1" source="f4_129" style="edgeStyle=none;rounded=0;html=0;endArrow=classic;endFill=1;strokeColor=#222222;strokeWidth=1.8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="f4_130">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="1045" as="sourcePoint" />
+            <mxPoint x="505" y="1045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_137" edge="1" parent="1" source="f4_130" style="edgeStyle=none;rounded=0;html=0;endArrow=classic;endFill=1;strokeColor=#222222;strokeWidth=1.8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="f4_131">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="1045" as="sourcePoint" />
+            <mxPoint x="935" y="1045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_138" edge="1" parent="1" source="f4_131" style="edgeStyle=none;rounded=0;html=0;endArrow=classic;endFill=1;strokeColor=#222222;strokeWidth=1.8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="f4_132">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="1045" as="sourcePoint" />
+            <mxPoint x="1370" y="1045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4_139" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="同一超边可被多个专家选中&#xa;也可能未被任何专家选中" vertex="1">
+          <mxGeometry height="73" width="367" x="77" y="1116" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_140" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="重要性沿超边维归一化&#xa;评分对象按交底书采用超边预测" vertex="1">
+          <mxGeometry height="73" width="372" x="507" y="1116" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_141" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="沿预测时间维映射&#xa;逐元素调制，不替代专家路由" vertex="1">
+          <mxGeometry height="73" width="367" x="940" y="1116" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_142" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="送入图2&#xa;与最细尺度残差结合" vertex="1">
+          <mxGeometry height="73" width="250" x="1370" y="1116" as="geometry" />
+        </mxCell>
+        <mxCell id="f4_143" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="连线只示意专家集合与数据流；彩色超边选择为示例，不代表训练后的固定路由结果。" vertex="1">
+          <mxGeometry height="27" width="1600" x="45" y="1263" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
