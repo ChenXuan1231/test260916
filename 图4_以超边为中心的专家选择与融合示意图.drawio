@@ -400,6 +400,9 @@
         <mxCell id="f4_106" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FED9D9;strokeColor=#555555;strokeWidth=1.6;fontFamily=SimSun;fontSize=12;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;shape=ellipse;" value="6" vertex="1">
           <mxGeometry height="20" width="20" x="1364" y="409.84000000000003" as="geometry" />
         </mxCell>
+        <mxCell id="f4_107" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=23;fontStyle=0;fontColor=#407A4F;align=center;verticalAlign=middle;spacing=4;" value="✓  ×" vertex="1">
+          <mxGeometry height="30" width="60" x="1421.5" y="371.2" as="geometry" />
+        </mxCell>
         <mxCell id="f4_108" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=18;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="所选超边诱导子图 GZ" vertex="1">
           <mxGeometry height="26" width="235" x="1340" y="467" as="geometry" />
         </mxCell>
@@ -492,7 +495,7 @@
         <mxCell id="f4_125" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=20;fontStyle=1;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="门控与索引说明" vertex="1">
           <mxGeometry height="32" width="416" x="47" y="630" as="geometry" />
         </mxCell>
-        <mxCell id="f4_126" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=17;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="容量 K = min(M, max(⌊M·c/Z⌋, 1))&#xa;未选路由项置零&#xa;&#xa;① 稀疏专家门控：选择与组合专家&#xa;② 超边重要性：汇聚不同超边预测&#xa;③ 输出sigmoid门控：调制融合结果" vertex="1">
+        <mxCell id="f4_126" parent="1" style="rounded=0;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=17;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" value="容量 `K = min(M, max(⌊M·c/Z⌋, 1))`&#xa;未选路由项置零&#xa;&#xa;① 稀疏专家门控：选择与组合专家&#xa;② 超边重要性：汇聚不同超边预测&#xa;③ 输出sigmoid门控：调制融合结果" vertex="1">
           <mxGeometry height="177" width="384" x="63" y="670" as="geometry" />
         </mxCell>
         <mxCell id="f4_127" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=#999999;strokeWidth=1.6;fontFamily=SimSun;fontSize=19;fontStyle=0;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;dashed=1;dashPattern=6 4;" value="" vertex="1">
